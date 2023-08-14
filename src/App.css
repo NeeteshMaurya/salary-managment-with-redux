@@ -1,0 +1,15 @@
+.appdiv{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+.employeeIddiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.incAmount{
+    margin-left: 20px;
+    
+}
