@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <div style={{marginLeft:'580px'}}>
-        <h2 >Salary Management System(Global state management system)</h2>
+        <h2 >Salary Management System</h2>
       </div>
       <div className='appdiv'>
         <Increment/>
