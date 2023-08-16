@@ -57,7 +57,7 @@ const Increment= ()=> {
         <div className='incAmount'>
           <p>Increment Amount -</p>
           <input style={{marginRight:'8px'}} type='number' onChange={(e)=>{setInput(e.target.value)}}/>
-          <Button variant="contained" color='success' onClick={()=>dispatch(incrementbyAmount([input,checked]))}>Increase</Button>
+          <Button sx={{bgcolor: 'orange',color:'black',"&:hover": {backgroundColor: "transparent" }}}  onClick={()=>dispatch(incrementbyAmount([input,checked]))}>Increase</Button>
         </div>
       </div>
     );
